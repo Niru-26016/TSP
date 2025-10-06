@@ -7,4 +7,6 @@ for i in string:
         dictionary[i]=1
     else:
         dictionary[i]+=1
-print(dictionary)
+print("words\t\t\tcount")
+for i in dictionary:
+    print(f"{i}\t\t\t{dictionary[i]}")
